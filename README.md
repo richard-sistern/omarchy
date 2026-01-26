@@ -18,6 +18,12 @@ tte -i ~/.config/omarchy/branding/screensaver.txt \
 
 Install in nvim with [:LazyExtras](https://www.lazyvim.org/extras/lang/terraform)
 
+## Troubleshooting
+
+### Networking
+
+- Restart WiFi with `sudo systemctl restart iwd`
+
 ## References
 
 - [Omarchy tweaks](https://lobotuerto.com/blog/omarchy-tweaks)
