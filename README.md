@@ -27,3 +27,4 @@ Install in nvim with [:LazyExtras](https://www.lazyvim.org/extras/lang/terraform
 ## References
 
 - [Omarchy tweaks](https://lobotuerto.com/blog/omarchy-tweaks)
+- [Keyboard cheatsheet](https://acrogenesis.com/omarchy-cheat-sheet/)
