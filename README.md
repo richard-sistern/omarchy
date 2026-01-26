@@ -3,6 +3,7 @@
 ## Tweaks
 
 - [Screensaver cmd](https://github.com/basecamp/omarchy/blob/master/bin/omarchy-cmd-screensaver)
+- [Set the locale](https://wiki.archlinux.org/title/Locale#Setting_the_system_locale)
 
 ```shell
 tte -i ~/.config/omarchy/branding/screensaver.txt \
