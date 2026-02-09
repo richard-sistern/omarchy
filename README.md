@@ -18,6 +18,7 @@ tte -i ~/.config/omarchy/branding/screensaver.txt \
 
 # Define rules to linking apps to workspaces.
 # Can also define effects like `fullscreen on`.
+# https://wiki.hypr.land/Configuring/Window-Rules/
 
 # Find match details with `hyprctl clients`
 windowrule = workspace 1, match:class chromium
