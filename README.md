@@ -11,7 +11,28 @@ tte -i ~/.config/omarchy/branding/screensaver.txt \
   --random-effect --include-effects burn expand highlight matrix pour rain smoke spotlights thunderstorm waves \
   --no-eol --no-restore-cursor &
 ```
-  
+## Hyprland
+
+```
+# ~/.config/hypr/workspaces.conf
+
+# Define rules to linking apps to workspaces.
+# Can also define effects like `fullscreen on`.
+
+# Find match details with `hyprctl clients`
+windowrule = workspace 1, match:class chromium
+windowrule = workspace 2, match:initial_title 'Outlook (PWA)'
+windowrule = workspace 2, match:initial_title 'Teams (PWA)'
+windowrule = workspace 3, match:class code
+
+# Launch apps on startup.
+# The silent flag prevents workspace focus switching.
+exec-once = [workspace 1 silent] chromium
+exec-once = [workspace 2 silent] 'Outlook (PWA)'
+exec-once = [workspace 3 silent] code
+
+# Add as a source to ~/.config/hypr/hyprland.conf
+```
 
 ## Software
 
