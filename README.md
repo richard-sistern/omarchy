@@ -24,6 +24,9 @@ tte -i ~/.config/omarchy/branding/screensaver.txt \
 windowrule = workspace 1, match:class chromium
 windowrule = workspace 2, match:class code
 
+# Fix Bitwarden floating automatically
+windowrule = match:class Bitwarden, tag -floating-window, tile on
+
 # Launch apps on startup.
 # The silent flag prevents workspace focus switching.
 exec-once = [workspace 1 silent] chromium
