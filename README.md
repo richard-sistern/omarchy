@@ -21,15 +21,12 @@ tte -i ~/.config/omarchy/branding/screensaver.txt \
 
 # Find match details with `hyprctl clients`
 windowrule = workspace 1, match:class chromium
-windowrule = workspace 2, match:initial_title 'Outlook (PWA)'
-windowrule = workspace 2, match:initial_title 'Teams (PWA)'
-windowrule = workspace 3, match:class code
+windowrule = workspace 2, match:class code
 
 # Launch apps on startup.
 # The silent flag prevents workspace focus switching.
 exec-once = [workspace 1 silent] chromium
-exec-once = [workspace 2 silent] 'Outlook (PWA)'
-exec-once = [workspace 3 silent] code
+exec-once = [workspace 2 silent] code
 
 # Add as a source to ~/.config/hypr/hyprland.conf
 ```
