@@ -2,6 +2,7 @@
 
 ## Tweaks
 
+### Screensaver
 - [Screensaver cmd](https://github.com/basecamp/omarchy/blob/master/bin/omarchy-cmd-screensaver)
 - [Set the locale](https://wiki.archlinux.org/title/Locale#Setting_the_system_locale)
 
@@ -11,6 +12,13 @@ tte -i ~/.config/omarchy/branding/screensaver.txt \
   --random-effect --include-effects burn expand highlight matrix pour rain smoke spotlights thunderstorm waves \
   --no-eol --no-restore-cursor &
 ```
+
+### Printscreen
+```shell
+which omarchy-cmd-screenshot
+```
+
+
 ## Hyprland
 
 ```
